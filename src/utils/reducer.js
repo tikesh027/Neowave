@@ -1,4 +1,4 @@
-export const initilState = {
+export const initialState = {
   token: null,
 };
 
