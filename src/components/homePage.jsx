@@ -11,10 +11,10 @@ const HomePage = () => {
         <Navigation />
       </div>
       <div className="flex flex-col w-full h-[85%]">
-        <div className="h-[20%] bg-slate-500 m-2 rounded-[10px] p-4">
+        <div className="h-[30%] bg-slate-500 m-2 rounded-[10px] p-4">
           <YourLibrary />
         </div>
-        <div className="h-[80%] bg-blue-400 m-2 rounded-[10px] p-4">
+        <div className="h-[70%] bg-blue-400 m-2 rounded-[10px] p-4">
           <MiddleSection />
         </div>
       </div>
