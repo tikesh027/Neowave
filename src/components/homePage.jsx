@@ -1,8 +1,8 @@
 import React from "react";
 import Navigation from "./landingPage/navigation";
-import SideBar from "./landingPage/sideBar";
 import MiddleSection from "./landingPage/middleSection";
 import Player from "./landingPage/player";
+import YourLibrary from "./landingPage/yourLibrary";
 
 const HomePage = () => {
   return (
@@ -10,11 +10,11 @@ const HomePage = () => {
       <div className="h-[7.5%]">
         <Navigation />
       </div>
-      <div className="flex w-full h-[85%]">
-        <div className="w-[20%] bg-slate-500 m-2 rounded-[10px] p-4">
-          <SideBar />
+      <div className="flex flex-col w-full h-[85%]">
+        <div className="h-[20%] bg-slate-500 m-2 rounded-[10px] p-4">
+          <YourLibrary />
         </div>
-        <div className="w-[80%] bg-blue-400 mr-2 my-2 rounded-[10px] p-4">
+        <div className="h-[80%] bg-blue-400 m-2 rounded-[10px] p-4">
           <MiddleSection />
         </div>
       </div>
